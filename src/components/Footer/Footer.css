@@ -1,0 +1,41 @@
+.footer-container {
+    background-color: rgb(6, 28, 37);
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-img {
+    padding: 0 8px;
+}
+
+.made-by {
+    font-weight: 500;
+    color: white;
+}
+
+@media (max-width: 660px) {
+    .footer-container {
+        display: block;
+    }
+
+    .footer-logo,
+    .footer-made-by,
+    .footer-social-medias {
+        padding: 24px;
+    }
+
+    .footer-logo-img {
+        max-width: 140px;
+        max-height: 100px;
+    }
+
+    .footer-img {
+        padding: 0;
+        padding-right: 12px;
+    }
+
+}

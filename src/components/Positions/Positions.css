@@ -1,0 +1,18 @@
+.by-position {
+    text-align: center;
+    padding: 32px;
+}
+
+.by-position-title {
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.by-position-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}

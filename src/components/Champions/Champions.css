@@ -1,0 +1,38 @@
+.champion-card {
+    width: 280px;
+    margin: 10px;
+}
+
+.upper-card {
+    background-color: #F0F0F0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.image-card {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.down-card {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.champion-name-card {
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.champion-class-card {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 16px 16px 0 16px;
+}

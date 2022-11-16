@@ -1,0 +1,30 @@
+.container {
+    background-color: rgb(6, 28, 37);
+    text-align: center;
+    display: block
+}
+
+.logo-img {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 30px;
+}
+
+.banner {
+    width: 700px;
+    margin: 20px auto;
+}
+
+@media (max-width: 720px) {
+    .banner {
+        width: 520px;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 540px) {
+    .banner {
+        width: 360px;
+        margin: 20px auto;
+    }
+}

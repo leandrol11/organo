@@ -1,4 +1,3 @@
-
 import Champion from "../Champions"
 import "./Positions.css"
 
@@ -12,15 +11,18 @@ const Positions = (props) => {
             <section className="by-position" style={byPositionCss} >
                 <h3 className="by-position-title" style={byPositionTitleCss}>{props.name}</h3>
                 <div className="by-position-cards">
-                    {props.champions.map(champion =>
-                        <Champion
-                            key={champion.name}
-                            name={champion.name}
-                            classType={champion.classType}
-                            image={champion.image}
-                            role={champion.position}
-                            primaryColor={props.primaryColor}
-                        />)}
+                    {props.champions.map(champion => {
+                        return (
+                            <Champion
+                                key={champion.name}
+                                name={champion.name}
+                                classType={champion.classType}
+                                image={champion.image}
+                                role={champion.position}
+                                primaryColor={props.primaryColor}
+                            />
+                        )
+                    })}
                 </div>
             </section>
             : ""
